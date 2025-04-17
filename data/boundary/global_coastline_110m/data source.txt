@@ -1,0 +1,4 @@
+Data name: Global 110 m coastline (plolyline)
+Data source:
+https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-coastline/
+Access date:10/2/2024
