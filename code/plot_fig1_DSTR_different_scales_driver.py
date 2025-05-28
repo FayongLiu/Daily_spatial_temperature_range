@@ -443,7 +443,7 @@ def ridgeReg(df, outpath, out_key, ftsz_num, lab1, axname, plot_pred, plot_con, 
         ax.scatter(ridge_test, y_test, s=sz, c='steelblue', marker='o', alpha=alp, label='Test')
         xlim = ax.get_xlim()
         ylim = ax.get_ylim()
-        ax.plot([xlim[0], xlim[1]], [ylim[0], ylim[1]], color='grey', linestyle='--', linewidth=2, label='1:1 line')
+        ax.plot([xlim[0], xlim[1]], [xlim[0], xlim[1]], color='grey', linestyle='--', linewidth=2, label='1:1 line')
         textname1 = 'Train $R^2$ = ' + str(round(R2_train, 2))
         textname2 = 'Test $R^2$ = ' + str(round(R2_test, 2))
 
